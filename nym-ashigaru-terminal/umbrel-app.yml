@@ -2,6 +2,7 @@ manifestVersion: 1
 id: nym-ashigaru-terminal
 category: bitcoin
 name: Ashigaru Terminal
+icon: https://raw.githubusercontent.com/TheNymMan/Ashi-T/refs/heads/main/assets/icon.png
 version: "1.0.0"
 tagline: A non-custodial, dedicated Ashigaru Whirlpool client
 description: >-

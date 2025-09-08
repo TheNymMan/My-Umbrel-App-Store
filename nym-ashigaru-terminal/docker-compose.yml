@@ -10,3 +10,5 @@ services:
     image: ghcr.io/thenymman/ashi-t:1.0.0@sha256:0d9edf79ad579f1a64a927312cb290b31da9621290d1ecf69a3e445b9ab8781f
     restart: on-failure
     stop_grace_period: 1m
+    ports:
+      - 7682:7682

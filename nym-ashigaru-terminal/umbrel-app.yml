@@ -17,7 +17,7 @@ developer: The Ashigaru Open Source Project
 website: https://ashigaru.rs
 repo: http://ashicodepbnpvslzsl2bz7l2pwrjvajgumgac423pp3y2deprbnzz7id.onion/Ashigaru
 support: https://ashigaru.rs/contact/
-port: 7682
+port: 6979
 dependencies: []
 gallery:
   - 1.jpg

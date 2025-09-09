@@ -3,12 +3,11 @@ version: "3.7"
 services:
   app_proxy:
     environment:
-      APP_HOST: nym-ashigaru-terminal_web_1
+      APP_HOST: denny-ashi-t_app_1
       APP_PORT: 7682
-  
-  web:
-    image: ghcr.io/thenymman/ashi-t:1.0.0@sha256:0d9edf79ad579f1a64a927312cb290b31da9621290d1ecf69a3e445b9ab8781f
+
+  app:
+    image: ghcr.io/thenymman/ashi-t:1.0.0@sha256:ec0b362dc56c45497921d57609631ea6ed661ddd5155872e623e7f58e4df1856
     restart: on-failure
-    stop_grace_period: 1m
-    ports:
-      - 7682:7682
+    volumes:
+      - ${APP_DATA_DIR}/data:/root/.ashigaru

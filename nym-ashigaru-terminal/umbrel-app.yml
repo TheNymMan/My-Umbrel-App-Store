@@ -6,13 +6,7 @@ icon: https://i.imgur.com/CY6QvjL.png
 category: bitcoin
 version: "1.0.0"
 port: 7682
-description: >-
-  MUST READ All INFO HERE!
-
-
-  This app will only work on umbrel severs running the x86 architecture. For example the Umbrel Home would work, along with any intel or amd machines. Any raspberry pi devices will not :(
-  
-  
+description: >-  
   🥷 Ashigaru Terminal is a terminal based application that enables users to participate in Whirlpool CoinJoin cycles with the goal of strengthening privacy in Bitcoin transactions. It provides a streamlined way to enter the Whirlpool process by constructing Tx0 transactions, which act as the gateway into mixing pools. Once a Tx0 has been created the application coordinates with the Whirlpool system to shuffle coins alongside those of other participants. This deliberate mixing obscures the direct relationship between transaction inputs and outputs, thereby breaking traceable links on the blockchain.
 
 
@@ -28,7 +22,7 @@ description: >-
   Overall Ashigaru Terminal acts as a dedicated privacy tool for individuals who want direct access to Whirlpool without added complexity. It balances simplicity of use with strong guarantees of control and anonymity, allowing users to strengthen the confidentiality of their Bitcoin transactions through an efficient and transparent mixing process.
 
 
-  ⚙️ To paste content into the web terminal use 'Ctrl+Shift+V' on Windows or Linux, or 'Cmd+Shift+V' on macOS. In LibreWolf or Tor Browser, it may be necessary to disable 'resistFingerprinting' for the web terminal to function properly. Alternatively, you can use a Chromium-based browser such as Brave. To connect to an Electrum server over Tor within Ashigaru Terminal, enter the server’s .onion address, select the correct Electrum port, and enable the proxy with the address 127.0.0.1 and port 9050.  
+  ⚙️ To paste content into the web terminal use 'Ctrl+Shift+V' on Windows or Linux, or 'Cmd+Shift+V' on macOS. In LibreWolf or Tor Browser, it may be necessary to disable 'resistFingerprinting' for the web terminal to function properly. Alternatively, you can use a Chromium-based browser such as Brave. To connect to an Electrum server over Tor within Ashigaru Terminal, enter the server’s .onion address, select the correct Electrum port, and enable the proxy with the address 127.0.0.1 and port 9050. This app will only work on umbrel severs running the x86 architecture. For example the Umbrel Home would work, along with any intel or amd machines. Any raspberry pi devices will not :(
 
 
   Please note that updates may not retain existing wallets. Always back up your seed phrase securely, especially before upgrading or migrating.  

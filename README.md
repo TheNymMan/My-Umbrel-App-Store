@@ -8,3 +8,5 @@
 4. Paste in the URL
 5. Open TheNymMan's community app store
 6. Install the app
+
+Note: This app will only work on umbrel severs running the x86 architecture. For example the Umbrel Home would work, along with any intel or amd machines. Any raspberry pi devices will not :(

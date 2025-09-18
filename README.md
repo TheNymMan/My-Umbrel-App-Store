@@ -6,5 +6,5 @@
 2. Click the menu button at the top right of the app store (three dots)
 3. Select "Community app stores"
 4. Paste in the URL
-5. Open TheNymMan community app store
+5. Open TheNymMan's community app store
 6. Install the app
